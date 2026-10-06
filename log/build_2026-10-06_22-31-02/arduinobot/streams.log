@@ -1,0 +1,29 @@
+[0.511s] Invoking command in '/home/lakindu/arduinobot_ws/src/arduinobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakindu/arduinobot_ws/build/arduinobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot build --build-base /home/lakindu/arduinobot_ws/build/arduinobot/build install --record /home/lakindu/arduinobot_ws/build/arduinobot/install.log --install-scripts $base/lib/arduinobot --single-version-externally-managed install_data
+[0.695s] running egg_info
+[0.706s] writing ../../build/arduinobot/arduinobot.egg-info/PKG-INFO
+[0.707s] writing dependency_links to ../../build/arduinobot/arduinobot.egg-info/dependency_links.txt
+[0.707s] writing entry points to ../../build/arduinobot/arduinobot.egg-info/entry_points.txt
+[0.707s] writing requirements to ../../build/arduinobot/arduinobot.egg-info/requires.txt
+[0.707s] writing top-level names to ../../build/arduinobot/arduinobot.egg-info/top_level.txt
+[0.739s] reading manifest file '../../build/arduinobot/arduinobot.egg-info/SOURCES.txt'
+[0.740s] writing manifest file '../../build/arduinobot/arduinobot.egg-info/SOURCES.txt'
+[0.740s] running build
+[0.740s] running build_py
+[0.740s] copying arduinobot/simple_subscriber.py -> /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot
+[0.740s] copying arduinobot/__init__.py -> /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot
+[0.740s] copying arduinobot/simple_publisher.py -> /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot
+[0.741s] running install
+[0.744s] running install_lib
+[0.756s] copying /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot/simple_subscriber.py -> /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot
+[0.756s] byte-compiling /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot/simple_subscriber.py to simple_subscriber.cpython-314.pyc
+[0.757s] running install_data
+[0.757s] copying resource/arduinobot -> /home/lakindu/arduinobot_ws/install/arduinobot/share/ament_index/resource_index/packages
+[0.757s] copying package.xml -> /home/lakindu/arduinobot_ws/install/arduinobot/share/arduinobot
+[0.757s] running install_egg_info
+[0.769s] removing '/home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot-0.0.0-py3.14.egg-info' (and everything under it)
+[0.769s] Copying ../../build/arduinobot/arduinobot.egg-info to /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot-0.0.0-py3.14.egg-info
+[0.770s] running install_scripts
+[0.832s] Installing simple_publisher script to /home/lakindu/arduinobot_ws/install/arduinobot/lib/arduinobot
+[0.833s] Installing simple_subscriber script to /home/lakindu/arduinobot_ws/install/arduinobot/lib/arduinobot
+[0.833s] writing list of installed files to '/home/lakindu/arduinobot_ws/build/arduinobot/install.log'
+[0.853s] Invoked command in '/home/lakindu/arduinobot_ws/src/arduinobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakindu/arduinobot_ws/build/arduinobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot build --build-base /home/lakindu/arduinobot_ws/build/arduinobot/build install --record /home/lakindu/arduinobot_ws/build/arduinobot/install.log --install-scripts $base/lib/arduinobot --single-version-externally-managed install_data

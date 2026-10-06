@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/arduinobot/arduinobot.egg-info
+writing ../../build/arduinobot/arduinobot.egg-info/PKG-INFO
+writing dependency_links to ../../build/arduinobot/arduinobot.egg-info/dependency_links.txt
+writing entry points to ../../build/arduinobot/arduinobot.egg-info/entry_points.txt
+writing requirements to ../../build/arduinobot/arduinobot.egg-info/requires.txt
+writing top-level names to ../../build/arduinobot/arduinobot.egg-info/top_level.txt
+writing manifest file '../../build/arduinobot/arduinobot.egg-info/SOURCES.txt'
+reading manifest file '../../build/arduinobot/arduinobot.egg-info/SOURCES.txt'
+writing manifest file '../../build/arduinobot/arduinobot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot
+copying arduinobot/__init__.py -> /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot
+copying arduinobot/simple_publisher.py -> /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot
+running install
+running install_lib
+creating /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot
+copying /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot/__init__.py -> /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot
+copying /home/lakindu/arduinobot_ws/build/arduinobot/build/lib/arduinobot/simple_publisher.py -> /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot
+byte-compiling /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot/simple_publisher.py to simple_publisher.cpython-314.pyc
+running install_data
+creating /home/lakindu/arduinobot_ws/install/arduinobot/share/ament_index/resource_index/packages
+copying resource/arduinobot -> /home/lakindu/arduinobot_ws/install/arduinobot/share/ament_index/resource_index/packages
+copying package.xml -> /home/lakindu/arduinobot_ws/install/arduinobot/share/arduinobot
+running install_egg_info
+Copying ../../build/arduinobot/arduinobot.egg-info to /home/lakindu/arduinobot_ws/install/arduinobot/lib/python3.14/site-packages/arduinobot-0.0.0-py3.14.egg-info
+running install_scripts
+Installing simple_publisher script to /home/lakindu/arduinobot_ws/install/arduinobot/lib/arduinobot
+writing list of installed files to '/home/lakindu/arduinobot_ws/build/arduinobot/install.log'

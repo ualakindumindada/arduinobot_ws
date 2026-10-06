@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/arduinobot_desc/arduinobot_desc.egg-info/PKG-INFO
+../../build/arduinobot_desc/arduinobot_desc.egg-info/SOURCES.txt
+../../build/arduinobot_desc/arduinobot_desc.egg-info/dependency_links.txt
+../../build/arduinobot_desc/arduinobot_desc.egg-info/requires.txt
+../../build/arduinobot_desc/arduinobot_desc.egg-info/top_level.txt
+../../build/arduinobot_desc/arduinobot_desc.egg-info/zip-safe
+arduinobot_desc/__init__.py
+arduinobot_desc/py.typed
+resource/arduinobot_desc
+test/test_copyright.py
+test/test_flake8.py
+test/test_mypy.py
+test/test_pep257.py
+test/test_xmllint.py
