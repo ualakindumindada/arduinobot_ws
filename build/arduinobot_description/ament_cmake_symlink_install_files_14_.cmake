@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lakindu/arduinobot_ws/src/arduinobot_description" FILES "/home/lakindu/arduinobot_ws/src/arduinobot_description/package.xml" "DESTINATION" "share/arduinobot_description")

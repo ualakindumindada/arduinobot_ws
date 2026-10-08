@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lakindu/arduinobot_ws/src/arduinobot_description" FILES "/home/lakindu/arduinobot_ws/build/arduinobot_description/ament_cmake_environment_hooks/local_setup.fish" "DESTINATION" "share/arduinobot_description")
