@@ -44,4 +44,24 @@
         <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
 
+    <link name="forward_drive_arm">
+        <visual>
+            <origin xyz="0.22 0.07 -0.08" rpy="0 -${PI/2} ${PI/2}"/>
+            <geometry>
+                <mesh filename="package://arduinobot_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="joint_2" type="revolute">
+        <parent link="base_plate"/>
+        <child link="forward_drive_arm"/>
+
+        <origin xyz="-0.02 0 0.35" rpy="0 0 0"/>
+
+        <axis xyz="1 0 0"/>
+
+        <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+    </joint>
+
 </robot>
