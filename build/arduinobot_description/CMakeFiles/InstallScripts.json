@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lakindu/arduinobot_ws/build/arduinobot_description/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
