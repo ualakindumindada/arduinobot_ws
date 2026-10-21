@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'simple_publisher = arduinobot_py.simple_publisher:main',
             'simple_subscriber = arduinobot_py.simple_subscriber:main',
+            'simple_parameter = arduinobot_py.simple_parameter:main',
         ],
     },
 )

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing arduinobot_py.egg-info/PKG-INFO
+writing dependency_links to arduinobot_py.egg-info/dependency_links.txt
+writing entry points to arduinobot_py.egg-info/entry_points.txt
+writing requirements to arduinobot_py.egg-info/requires.txt
+writing top-level names to arduinobot_py.egg-info/top_level.txt
+reading manifest file 'arduinobot_py.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lakindu/arduinobot_ws/install/arduinobot_py/lib/python3.14/site-packages/arduinobot-py.egg-link (link to .)
+Installing simple_publisher script to /home/lakindu/arduinobot_ws/install/arduinobot_py/lib/arduinobot_py
+Installing simple_subscriber script to /home/lakindu/arduinobot_ws/install/arduinobot_py/lib/arduinobot_py
+
+Installed /home/lakindu/arduinobot_ws/build/arduinobot_py
+running symlink_data
+symbolically linking /home/lakindu/arduinobot_ws/build/arduinobot_py/resource/arduinobot_py -> /home/lakindu/arduinobot_ws/install/arduinobot_py/share/ament_index/resource_index/packages
+symbolically linking /home/lakindu/arduinobot_ws/build/arduinobot_py/package.xml -> /home/lakindu/arduinobot_ws/install/arduinobot_py/share/arduinobot_py
