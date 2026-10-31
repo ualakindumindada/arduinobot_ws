@@ -4,6 +4,3 @@ source;share/arduinobot_py/hook/pythonpath.sh
 source;share/arduinobot_py/hook/ament_prefix_path.ps1
 source;share/arduinobot_py/hook/ament_prefix_path.dsv
 source;share/arduinobot_py/hook/ament_prefix_path.sh
-source;../../build/arduinobot_py/share/arduinobot_py/hook/pythonpath_develop.ps1
-source;../../build/arduinobot_py/share/arduinobot_py/hook/pythonpath_develop.dsv
-source;../../build/arduinobot_py/share/arduinobot_py/hook/pythonpath_develop.sh

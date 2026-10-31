@@ -1,0 +1,2 @@
+Invoking command in '/home/lakindu/arduinobot_ws/build/arduinobot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lakindu/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/lakindu/arduinobot_ws/install/arduinobot_description
+Invoked command in '/home/lakindu/arduinobot_ws/build/arduinobot_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lakindu/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/lakindu/arduinobot_ws/install/arduinobot_description

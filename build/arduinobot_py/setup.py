@@ -1,1 +1,0 @@
-/home/lakindu/arduinobot_ws/src/arduinobot_py/setup.py

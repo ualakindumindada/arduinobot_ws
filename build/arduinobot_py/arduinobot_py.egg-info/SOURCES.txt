@@ -12,11 +12,9 @@ arduinobot_py/__init__.py
 arduinobot_py/simple_parameter.py
 arduinobot_py/simple_publisher.py
 arduinobot_py/simple_subscriber.py
-arduinobot_py.egg-info/PKG-INFO
-arduinobot_py.egg-info/SOURCES.txt
-arduinobot_py.egg-info/dependency_links.txt
-arduinobot_py.egg-info/entry_points.txt
-arduinobot_py.egg-info/requires.txt
-arduinobot_py.egg-info/top_level.txt
-arduinobot_py.egg-info/zip-safe
 resource/arduinobot_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_mypy.py
+test/test_pep257.py
+test/test_xmllint.py

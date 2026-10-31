@@ -9,10 +9,12 @@ class SimpleParameter(Node):
     def __init__(self):
         super().__init__('simple_parameter')
 
-        self.declare_parameter("simple_int_param", 28)
-        self.declare_parameter("simple_string_param", "Lakindu")
+        self.declare_parameter('simple_int_param', 28)
+        self.declare_parameter('simple_string_param', 'Lakindu')
 
-        self.add_on_set_parameters_callback(self.paramChangeCallback)
+        self.add_on_set_parameters_callback(
+            self.paramChangeCallback
+        )
 
     def paramChangeCallback(self, params):
         result = SetParametersResult()
@@ -20,17 +22,27 @@ class SimpleParameter(Node):
 
         for param in params:
 
-            if param.name == "simple_int_param" and param.type == Parameter.Type.INTEGER:
-                self.get_logger().info(
-                    "Parameter simple_int_param changed. New value is: %d"
-                    % param.value
-                )
+            if param.name == 'simple_int_param':
+                if param.type_ == Parameter.Type.INTEGER:
+                    self.get_logger().info(
+                        f'Parameter simple_int_param changed. '
+                        f'New value is: {param.value}'
+                    )
+                else:
+                    result.successful = False
+                    result.reason = 'simple_int_param must be an integer'
+                    return result
 
-            elif param.name == "simple_string_param" and param.type == Parameter.Type.STRING:
-                self.get_logger().info(
-                    "Parameter simple_string_param changed. New value is: %s"
-                    % param.value
-                )
+            elif param.name == 'simple_string_param':
+                if param.type_ == Parameter.Type.STRING:
+                    self.get_logger().info(
+                        f'Parameter simple_string_param changed. '
+                        f'New value is: {param.value}'
+                    )
+                else:
+                    result.successful = False
+                    result.reason = 'simple_string_param must be a string'
+                    return result
 
         return result
 
