@@ -137,4 +137,21 @@
         <mimic joint="joint_4" multiplier="-1" offset="0"/>
     </joint>
 
+    <!--rgb_camera -->
+    <link name="rgb_camera">
+        <visual>
+            <origin xyz="0 0.13 0.14" rpy="-${PI/2} 0 -${PI/2}"/>
+            <geometry>
+                <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="rgb_camera_joint " type="fixed">
+        <parent link="base_link"/>
+        <child link="rgb_camera"/>
+        <axis xyz="0 0 1"/>
+        <origin rpy="0.0 -${PI/6} ${PI/2} " xyz="0 0.4 0.3"/>
+    </joint>
+
 </robot>

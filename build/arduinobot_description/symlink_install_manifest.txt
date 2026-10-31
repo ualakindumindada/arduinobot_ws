@@ -5,6 +5,7 @@
 /home/lakindu/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
 /home/lakindu/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
 /home/lakindu/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+/home/lakindu/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/lakindu/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
 /home/lakindu/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
 /home/lakindu/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
